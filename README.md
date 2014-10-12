@@ -22,6 +22,8 @@ cd docker-template
 sudo make all
 ```
 
+If you give [docker non-root access](http://askubuntu.com/questions/477551/how-can-i-use-docker-without-sudo) you will be able to run `make` without `sudo`.
+
 Requirements
 ------------
 
@@ -33,4 +35,8 @@ In order to use `sudo make enter` and `sudo make enterdata` you need
 Makefile.
 
 git, if you want to clone this repository on your machine.
+
+Links
+-----
+(Docker Data Only Container Demo)[https://github.com/toffer/docker-data-only-container-demo]
 

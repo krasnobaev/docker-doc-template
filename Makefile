@@ -10,7 +10,7 @@ build:
 	docker build -t $(IMAGE) .
 
 rebuild:
-	docker build -t --no-cache=true $(IMAGE) .
+	docker build --no-cache=true -t $(IMAGE) .
 
 run:
 	docker run -dt --name $(CONTAINER) $(IMAGE)
